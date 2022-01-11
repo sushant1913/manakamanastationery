@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cedarville+Cursive&family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cedarville+Cursive&family=Fredoka+One&family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Moon+Dance&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Moon+Dance&family=PT+Serif&family=Saira+Condensed:wght@500&display=swap');
+*{
+    margin: 0;padding: 0;
+    
+
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo {
+    display: flex;
+    
+    align-items: center;
+}
+.logo img {
+    width: 4%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    position: relative;
+    right: -2vw;
+    bottom: 9vh;
+    z-index: 10;
+ 
+}
+    
+}
+.logo p{
+    border: 2px solid rgb(0, 0, 0);
+    color: blanchedalmond;
+    align-items: center;
+
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    /* display: flex; */
+  
+    position: sticky;
+    top: 0;
+    height:11vh ;
+    border: 1px solid rgb(0, 0, 0);
+    z-index:1;
+}
+   
+  
+  .navbar a {
+    float: left;
+      height: 4vh;
+    color: #00d7f3;
+    text-align: center;
+    padding: 14px 19px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: black;
+    position: relative;
+    left: 29vw;
+
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(121, 124, 139);
+    color: black;
+  }
+  
+  
+  
+  .navbar .icon {
+    display: none;
+  }
+  
+#search{
+    margin-top: 4vh;
+
+     font-size: 2vw;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.firstsection{
+    height: 100%;
+    
+}
+.box-main{
+    background-image: url(yoi.jpg);
+    background-size: fit;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 97%;
+    height: 100%;
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(255, 255, 255);
+   font-family: 'PT Serif', serif;
+   max-width: 100%;
+   margin: auto;
+   height: 90vh;
+}
+.fhalf{
+    width:51%;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+   
+
+}
+.shalf{
+    width: 25%;
+    
+}
+.shalf p1{
+    color: rgb(32, 175, 218);
+    font-size: 35px;
+    position: relative;
+    top: 3vh;
+    left: 1.5vw;
+}
+
+.shalf img{
+    width: 65%;
+    border-radius: 150px;
+    border: 4px solid rgb(255, 255, 255);
+display:block;
+margin: auto;
+position: relative;
+left: 9vw;
+}
+.text-big{
+    align-items: center;
+    font-size:41px;
+    color: rgb(0, 174, 226);
+
+}
+.text-small{ 
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(131, 131, 131);
+    position: relative;
+    left :4vw;
+    margin-bottom: 2vh:
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border:2px solid white;
+    border-radius: 8px;
+    background: none;
+    font-weight: 600;
+   color: rgb(111, 111, 111);
+  
+   font-size: 20px;
+   cursor: pointer;
+   position: relative;
+   left: 7vw;
+  
+}
+.btn a{
+    text-decoration: none;
+    color: wheat;
+}
+.btn:hover{
+    background-color: rgba(151, 163, 128, 0.582);
+    
+}
+.secondsection{
+    
+    align-content: center;
+    background-color: rgb(243, 158, 0);
+background-color: rgb(196, 185, 185);
+height: 90vh;
+
+
+
+
+}
+.secondsection p{
+    color: rgb(29, 71, 115);
+    font-size: 1.5rem;
+    font-family: 'Paprika', cursive;
+    font-weight: 500;
+    text-align: center;
+    background-color: cornsilk;
+    margin-top:-2vh;
+}
+.pasal{
+    position: relative;
+    top: 3vh;
+    left: 1vw;
+    border: 2px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.tauko{
+    display: flex;
+   justify-content: center;
+    margin-bottom: 2vh;
+   
+    font-size: 2rem;
+    font-family: 'Fredoka One', cursive;
+    width: 100%;
+    border: 0.3vh solid black;
+   margin-top: 3vh;
+   padding-top: 2vh;
+   padding-bottom: 2vh;
+   background-color: rgba(0, 0, 0, 0.782);
+
+   color: rgb(130, 151, 168);
+   border: 2px solid white;
+border-radius: 20px;
+  
+  
+} 
+
+.item {
+    position: relative;
+    top: 3vh;
+    left: 2vw;
+    border: 2px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.aboutbtn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background: none;
+    font-weight: 600;
+   color: rgb(60, 60, 87);
+   font-size: 20px;
+   cursor: pointer;
+    position: relative;
+    bottom: -4vh;
+    right: -97vh;
+}
+.aboutbtn:hover{
+    background-color: rgb(157, 136, 132);
+}
+.item2 {
+    position: relative;
+    top: 3vh;
+    left: 4vw;
+    border: 2px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+.tauko2{
+    display: flex;
+    justify-content: center;
+     margin-bottom: 2vh;
+     
+     font-size: 2rem;
+     font-family: 'Fredoka One', cursive;
+     width: 100%;
+     border: 0.3vh solid black;
+    margin-top: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: rgba(0, 0, 0, 0.782);
+ 
+    color: rgb(62, 143, 136);
+   
+}
+.thirdsection p{
+    color: rgb(29, 71, 115);
+    font-size: 1rem;
+    font-family: 'PT Serif', serif;
+    font-weight: 800;
+    }
+.thirdsection{
+    /* display: flex; */
+    align-content: center;
+    background-color: rgba(194, 136, 29, 0.658);
+
+    background-size: contain;
+    background-repeat:x-repeat;
+    margin-top: 8vh;
+}
+.thirdsection ul {
+     
+     list-style: none;  
+    font-size: 1.5rem;
+   
+    
+
+}
+.stationary{
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+    
+}
+.thirdsection ul img{
+    left: 70vw;
+    top:-14vh;
+    position: relative;
+    border-radius: 30px;
+    border:1px solid rgb(0, 0, 0);
+    box-shadow: 4px rgb(255, 202, 164);
+}
+ #services1{
+     display: flex;
+     justify-content: center;
+ }
+ .tauko3{
+    display: flex;
+    justify-content: center;
+     margin-bottom: 2vh;
+    
+     font-size: 2rem;
+     font-family: 'Fredoka One', cursive;
+     width: 100%;
+     border: 0.3vh solid black;
+    margin-top: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: rgba(0, 0, 0, 0.782);
+ 
+    color: rgb(114, 120, 151);
+   
+}
+.fourthsection img{
+  
+  margin-left: 24vh;
+  border: 1px  solid black;
+  border-radius:0px 50px 0px 50px;
+}
+#contactinfo{
+    display: inline-block;
+    
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    height: 10vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.918);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+ #service2{
+    position: relative;
+    left: 49vw;
+
+}
+#service2 img{
+    position: relative;
+    top: -20vh;
+    left: -33vw;
+}
+#service4{
+    position: relative;
+    left: 49vw;
+    
+}
+#service4 img{
+    position: relative;
+    top: -20vh;
+    left: -33vw;
+}
+
+#service1 summary{
+    font-size: xx-large;
+     font-weight:700 ;
+}
+.psuedo{
+    display: none;
+
+}
+.psuedo summary{
+    
+}
+.phone-maa p {
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+
+}
+.phone-maa img{
+     border-radius: 50%;
+     border: 2px solid rgb(37, 33, 34);
+     position: relative;
+     left:55vw;
+     top: 1vh;
+     width: 35vw;
+     height: 15vh;
+}
+#slogan{
+       font-size: 1.5rem;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: rgb(5, 14, 5);
+       font-weight: 600;
+       text-align: center;
+       margin-bottom: 5vh;
+
+}
+
+@media screen and (max-width:1100px) {
+    body {
+        background-color: rgb(44, 149, 197);
+
+        
+  
+    }
+    
+    .navbar a {
+        background-color: rgb(0, 0, 0);
+        position: sticky;
+        top: 0;
+        height:5vh;
+        border: 1px solid rgb(0, 0, 0);
+        z-index:1;
+    }
+@media screen and (max-width: 1100px) {
+    .navbar a:not(:last-child) {display: none;}
+    .navbar a.icon {
+        
+        
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .icon {
+      top: 0;
+    }
+    .navbar.responsive a {
+        
+      float: none;
+      display: block;
+      text-align: center;
+    }
+  }
+     .navbar{
+         height: 9vh;
+        
+     }
+    .logo img {
+        width: 14%;
+        border: 3px solid rgb(0, 0, 0);
+        border-radius: 50%;
+        position: relative;
+        right: -4vw;
+        bottom: 8vh;
+        z-index: 10;}
+  
+   .item{
+    width: 22vh;
+    height: 18vh;
+    top: 1vh;
+    left: -2vw;
+    
+   }
+   .item2{
+    width: 22vh;
+    height: 17vh;
+    left: 1vw;
+    top: 3vh;
+    }
+    .pasal{
+    width: 21vh;
+    height: 17vh;
+    left: 47vw;
+    top: 41vh;
+    }
+    .secondsection p{
+    font-size: 1rem;
+    background-color: bisque;
+    text-align: left;
+    }   
+    .text-big{
+    font-size: 3vh;
+    align-items: center;
+    position: relative;
+    width: 62vw;
+    top: 5vh;
+    left: 12vw;
+    }
+
+    .text-small{
+    font-size: 3vh;
+    align-items: center;
+    position: relative;
+    width: 59vw;
+    top: 5vh;
+    left: 15vw;
+
+    }
+
+    .secondsection h1 {
+    text-align: left;
+    position: relative;
+    font-size: medium;
+
+} 
+    .box-main{
+        background-image:url(compute-ea4c57a4.png);
+    }
+    .shalf img{
+        position: relative;
+    bottom: 14vh;
+    left: -25vw;
+    width: 14vh;
+}
+.btn {
+    position: relative;
+    top: 6vh;
+    left: 20vw;
+ }
+ .tauko2{
+    text-align: left;
+    position: relative;
+    font-size: medium;
+ }
+ .thirdsection ul img{
+    position: relative;
+    top: 0vh;
+    left: 63vw;
+    width: 24vw;
+    height: 9vh;
+    border-radius: 54%;
+ }
+ .thirdsection ul{
+     font-size: 1rem;
+     color: rgb(0, 0, 0);
+     display: flex;
+     text-align:center;
+ }
+ .thirdsection {
+     display: none;
+ }
+     .psuedo{
+         display: block;
+         background-image: url(adi.jpg);
+     }
+     .psuedo summary{
+    
+        font-size: xx-large;
+        color: rgb(15, 130, 238);
+        font-family: 'Saira Condensed', sans-serif;
+        list-style: none;
+        position: relative;
+        left: 25vw;
+
+    }
+    .psuedo summary:hover{
+        
+        cursor: pointer;
+        
+    }
+ .fourthsection{
+     background-color: bisque;
+     background-size: contain;
+     background-repeat: no-repeat;
+ }
+ .tauko3{
+    text-align: left;
+    position: relative;
+    font-size: medium;
+ }
+ #contactinfo{
+     color: rgb(22, 21, 22);
+     font-size: larger;
+
+     font-family: fantasy;
+    position: relative;
+    left: 30vw;
+ }
+ .fourthsection img{
+position: relative;
+right: 20vw;
+ }
+ 
+}
